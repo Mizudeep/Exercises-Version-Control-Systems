@@ -13,6 +13,8 @@ class DiceGameApplication {
             total += tmp;
         }
         System.out.printf("Total value: %d\n", total);
+        if(total > 7) System.out.println("You won!");
+        else System.out.println("You lost!");
     }
 
     public static void main(String[] args) {
